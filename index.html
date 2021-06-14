@@ -21,18 +21,19 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <div class="col">
           <div class="col">
             <h1 class="text-center">Remote Monitoring System</h1>
           </div>
         </div>
       </div>
+
+
       <div class="row row1">
-        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 mt-4 me-1">
-          <div style="overflow: scroll;
-          height: 17rem;">
-            <table id="customers"style="height: 19.92rem;">
+        <div class="col col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 mt-2 me-4">
+          <div style="overflow: scroll; height: 17rem">
+            <table id="customers" style="height: 19.92rem">
               <tr>
                 <th>Tag</th>
                 <th>Value</th>
@@ -77,59 +78,75 @@
           </div>
         </div>
 
-        <div class="col-lg-5 col-xl-5 ms-5">
-          <div class="row row1_right">
-            <div class="col-lg-6 col-xl-6">
-              <section class="tag1 bg-warning piechart_div" style="display: inline-block;">
-                <div class="text-center"><span class="">Tag1</span></div>
-                <canvas id="tag1"></canvas>
-              </section>
-              <section class="tag2 bg-secondary piechart_div" style="display: inline-block;">
-                <div class="text-center bg-secondary"><span class="">Tag2</span></div>
-                <canvas id="tag2"></canvas>
-              </section>
-            </div>
-
-            <!-- <div class="col-lg-6 col-xl-6">
-              <div class="tag2 bg-secondary piechart_div">
-                <div class="text-center"><span class="">Tag2</span></div>
-                <canvas id="tag2"></canvas>
-              </div>
-            </div> -->
+        <div class="col">
+         
+    
+      <div class="row col-sm-12 col-md- col-lg-5 col-xl-5 ms-5">
+    <div class="col-5 col-sm-5 col-lg-5 me-4">
+          <div class="piechart_div mb-5">
+            <h6 class="text-center">Tag1</h6>
+            <canvas class="px-1 py-1" id="tag1"></canvas>
           </div>
-
-          <div class="row">
-            <div class="col-lg-6 col-xl-6 mt-4">
-
-              <div class="col-lg-6 col-xl-6">
-                <section class="tag1 bg-warning piechart_div" style="display: inline-block;">
-                  <div class="text-center"><span class="">Tag3</span></div>
-                  <canvas id="tag3"></canvas>
-                </section>
-                <section class="tag2 bg-secondary piechart_div" style="display: inline-block;">
-                  <div class="text-center"><span class="">Tag4</span></div>
-                  <canvas id="tag4"></canvas>
-                </section>
-              </div>
-
-              <!-- <div class="tag3 bg-success piechart_div">
-                <div class="text-center"><span class="">Tag3</span></div>
-                <canvas id="tag3"></canvas>
-              </div> -->
-            </div>
-            <!-- <div class="col-lg-6 col-xl-6 mt-4">
-              <div class="tag4 bg-danger piechart_div">
-                <div class="text-center"><span class="">Tag4</span></div>
-                <canvas id="tag4"></canvas>
-              </div>
-            </div> -->
+        </div>
+        <div class="col-5 col-sm-5 col-lg-5">
+          <div class="piechart_div">
+            <h6 class="text-center">Tag2</h6>
+            <canvas class="px-1 py-1" id="tag2"></canvas>
           </div>
         </div>
       </div>
+  
+      <div class="row col-sm-12 col-lg-5 col-xl-5 ms-5">
+        <div class="col-5 col-sm-5 col-lg-5 me-4">
+          <div class="piechart_div mb-5">
+            <h6 class="text-center">Tag3</h6>
+            <canvas class="px-1 py-1" id="tag3"></canvas>
+          </div>
+        </div>
+        <div class="col-5 col-sm-5 col-lg-5">
+          <div class="piechart_div">
+            <h6 class="text-center">Tag4</h6>
+            <canvas class="px-1 py-1" id="tag4"></canvas>
+          </div>
+        </div>
+      </div>
+  
+    
+            
+        </div>
 
-      <div class="row row2">
-        <div class="col mt-4">
-          <div class="line-graph"><canvas id="line-graph"></canvas></div>
+<!-- 
+      </div>
+        <div class="col col-sm-12 col-md-5 col-lg-5 col-xl-5">
+          <div class="col right_main">
+            <div class="col-lg-5 col-md-5 right_main_first">
+              <div class="piechart_div mb-5">
+                <h6 class="text-center">Tag1</h6>
+                <canvas id="tag1"></canvas>
+              </div>
+
+              <div class="piechart_div">
+                <h6 class="text-center">Tag2</h6>
+                <canvas id="tag2"></canvas>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-5 right_main_second">
+              <div class="piechart_div mb-5">
+                <h6 class="text-center">Tag3</h6>
+                <canvas id="tag3"></canvas>
+              </div>
+              <div class="piechart_div">
+                <h6 class="text-center">Tag4</h6>
+                <canvas id="tag4"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
+
+      <div class="row row2 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="col mt-1">
+          <div class="line-graph"><canvas id="line-graph" style="height: 320px;"></canvas></div>
         </div>
       </div>
     </div>
