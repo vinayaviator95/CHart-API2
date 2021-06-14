@@ -50,6 +50,7 @@ body {
 .piechart_div {
   height: 8rem;
   width: 8rem;
+  position: relative;
 }
 #tag1 {
   border: 1px solid black;
@@ -63,23 +64,11 @@ body {
 #tag4 {
   border: 1px solid black;
 }
-/* .right_main{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction: row;
-    height: 100%;
-    min-width: 20rem;
-    
-  }
 
-  .right_main_first{
-    height: 100%;
-  }
-  .right_main_second{
-    height: 100%;
-  }
-
-  .line-graph{
-    height: 19rem;
-  } */
+.center_text{
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
