@@ -53,22 +53,39 @@ body {
   position: relative;
 }
 #tag1 {
-  border: 1px solid black;
+  border: 1px solid grey;
+  box-shadow: 1.25rem 1.25rem 2.5rem grey;
 }
 #tag2 {
-  border: 1px solid black;
+  border: 1px solid grey;
+  box-shadow: 1.25rem 1.25rem 2.5rem grey;
 }
 #tag3 {
-  border: 1px solid black;
+  border: 1px solid grey;
+  box-shadow: 1.25rem 1.25rem 2.5rem grey;
 }
 #tag4 {
-  border: 1px solid black;
+  border: 1px solid grey;
+  box-shadow: 1.25rem 1.25rem 2.5rem grey;
 }
 
 .center_text{
   position: absolute;
-  top: 68%;
+  top: 69%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
+}
+
+.table{
+  overflow: scroll; 
+  height: 17rem; 
+  width: 100%; 
+  box-shadow: 1.25rem 1.25rem 2.5rem grey; 
+  border: 1px solid black;
+}
+
+
+.line-graph{
+  border: 1px solid grey;
 }
